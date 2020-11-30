@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Talon Sleeping",
+            "color": "dark_gray",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Talon Sleeping\\\"}\"},SkullOwner:{Id:[I;1051019153,-1741274412,-1532941598,-1741860382],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y4YjgxZjE3ODk2ZWU3MWMwYjM1YzI4NDdiODZiNmRkMTRhOTRlZGNlMmZjMDg2MmM5NmQ0ZWE5ZWVmNTAifX19\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_secrets/frog"
+}

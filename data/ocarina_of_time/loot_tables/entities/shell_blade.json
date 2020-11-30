@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ammo Drop 1\\\"}\"},AmmoDrop:1b,Item:1b,Unbreakable:1b,Damage:19,HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ammo Drop 2\\\"}\"},AmmoDrop2:1b,Item:1b,Unbreakable:1b,Damage:19,HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ammo Drop 3\\\"}\"},AmmoDrop3:1b,Unbreakable:1b,Damage:19,HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Flex Drop\\\"}\"},FlexDrop:1b,Item:1b,Unbreakable:1b,Damage:19,HideFlags:63}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

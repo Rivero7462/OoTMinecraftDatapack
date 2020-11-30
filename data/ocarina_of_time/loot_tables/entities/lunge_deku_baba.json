@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Deku Stick\\\"}\"},DekuStick:1b,Item:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Deku Nut\\\"}\"},Unbreakable:1b,Damage:17,HideFlags:63,NutPickup:1b,PickupItem:1b,Item:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Zora Tunic",
+            "color": "green",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{display:{color:1521151}}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Tunic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "nbt": "{display:{color:1521151}}"
+                    }
+                ]
+            }
+        }
+    },
+        "parent": "minecraft:_gear/goron_tunic"
+}

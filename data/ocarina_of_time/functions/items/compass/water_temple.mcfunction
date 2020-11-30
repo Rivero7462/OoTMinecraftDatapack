@@ -1,0 +1,13 @@
+summon minecraft:area_effect_cloud 1022 56 3047 {Tags:["CompassChest","CompassChest1"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1024 57 3025 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1016 48 3025 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1023 48 3025 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1016 36 3025 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1024 36 3025 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1042 48 3002 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1042 48 3008 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1114 37 3075 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1041 30 3014 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1134 66 3125 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1097 44 3094 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 1097 44 3094 {Tags:["CompassChest"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}

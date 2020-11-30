@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Health",
+            "color": "red",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "Heart Container 1"
+        },
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

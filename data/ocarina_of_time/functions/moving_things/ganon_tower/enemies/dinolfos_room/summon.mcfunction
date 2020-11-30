@@ -1,0 +1,4 @@
+summon minecraft:zombie -501 39 1619 {Tags:["Dinolfos7","Dinolfos","Invisible","DinolfosRoom"],Rotation:[90f],ArmorItems:[{},{},{},{id:cobblestone,Count:1b,tag:{CustomModelData:74}}],Silent:1b,Attributes:[{Name:generic.movement_speed,Base:0.2},{Name:generic.attack_damage,Base:1},{Name:"generic.max_health",Base:30}],Health:30,DeathLootTable:"ocarina_of_time:entities/dinolfos",ArmorDropChances:[0f,0f,0f,0f]}
+summon minecraft:zombie -501 39 1613 {Tags:["Dinolfos8","Dinolfos","Invisible","DinolfosRoom"],Rotation:[90f],ArmorItems:[{},{},{},{id:cobblestone,Count:1b,tag:{CustomModelData:74}}],Silent:1b,Attributes:[{Name:generic.movement_speed,Base:0.2},{Name:generic.attack_damage,Base:1},{Name:"generic.max_health",Base:30}],Health:30,DeathLootTable:"ocarina_of_time:entities/dinolfos",ArmorDropChances:[0f,0f,0f,0f]}
+fill -511 39 1616 -511 39 1616 minecraft:stone_pressure_plate
+fill -500 36 1616 -500 36 1616 minecraft:gold_block

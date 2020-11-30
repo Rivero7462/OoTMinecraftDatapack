@@ -1,0 +1,93 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lime_dye",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.6
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Green Rupee\\\"}\"},FakeRupee:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lapis_lazuli",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Blue Rupee\\\"}\"},FakeRupee:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_dye",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.2
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Red Rupee\\\"}\"},FakeRupee:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:purple_dye",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.1
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Purple Rupee\\\"}\"},FakeRupee:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

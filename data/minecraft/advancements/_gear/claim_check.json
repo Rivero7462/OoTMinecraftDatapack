@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Claim Check",
+            "color": "green",
+            "bold": false,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:shears",
+            "nbt": "{Unbreakable:1b,Damage:13,HideFlags:63}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_gear/root"
+}

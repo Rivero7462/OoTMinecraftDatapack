@@ -1,0 +1,41 @@
+scoreboard players add @s timer 1
+
+    execute if entity @s[scores={timer=1}] run data merge entity @s {Pose:{RightArm:[-40f,-20f,40f]}}
+execute if entity @s[scores={timer=2}] run data merge entity @s {Pose:{RightArm:[-35f,-17f,40f]}}
+execute if entity @s[scores={timer=3}] run data merge entity @s {Pose:{RightArm:[-30f,-14f,40f]}}
+execute if entity @s[scores={timer=4}] run data merge entity @s {Pose:{RightArm:[-25f,-11f,40f]}}
+execute if entity @s[scores={timer=5}] run data merge entity @s {Pose:{RightArm:[-20f,-8f,40f]}}
+execute if entity @s[scores={timer=6}] run data merge entity @s {Pose:{RightArm:[-15f,-5f,40f]}}
+execute if entity @s[scores={timer=7}] run data merge entity @s {Pose:{RightArm:[-10f,-2f,40f]}}
+execute if entity @s[scores={timer=8}] run data merge entity @s {Pose:{RightArm:[-5f,1f,40f]}}
+execute if entity @s[scores={timer=9}] run data merge entity @s {Pose:{RightArm:[0f,4f,40f]}}
+execute if entity @s[scores={timer=10}] run data merge entity @s {Pose:{RightArm:[5f,6f,40f]}}
+execute if entity @s[scores={timer=11}] run data merge entity @s {Pose:{RightArm:[10f,8f,40f]}}
+execute if entity @s[scores={timer=12}] run data merge entity @s {Pose:{RightArm:[15f,10f,40f]}}
+execute if entity @s[scores={timer=13}] run data merge entity @s {Pose:{RightArm:[20f,12f,40f]}}
+execute if entity @s[scores={timer=14}] run data merge entity @s {Pose:{RightArm:[25f,14f,40f]}}
+execute if entity @s[scores={timer=15}] run data merge entity @s {Pose:{RightArm:[30f,16f,40f]}}
+execute if entity @s[scores={timer=16}] run data merge entity @s {Pose:{RightArm:[35f,18f,40f]}}
+    execute if entity @s[scores={timer=17}] run data merge entity @s {Pose:{RightArm:[40f,20f,40f]}}
+execute if entity @s[scores={timer=18}] run data merge entity @s {Pose:{RightArm:[35f,19f,40f]}}
+execute if entity @s[scores={timer=19}] run data merge entity @s {Pose:{RightArm:[30f,18f,40f]}}
+execute if entity @s[scores={timer=20}] run data merge entity @s {Pose:{RightArm:[25f,15f,40f]}}
+execute if entity @s[scores={timer=21}] run data merge entity @s {Pose:{RightArm:[20f,12f,40f]}}
+execute if entity @s[scores={timer=22}] run data merge entity @s {Pose:{RightArm:[15f,9f,40f]}}
+execute if entity @s[scores={timer=23}] run data merge entity @s {Pose:{RightArm:[10f,6f,40f]}}
+execute if entity @s[scores={timer=24}] run data merge entity @s {Pose:{RightArm:[5f,3f,40f]}}
+execute if entity @s[scores={timer=25}] run data merge entity @s {Pose:{RightArm:[0f,0f,40f]}}
+execute if entity @s[scores={timer=26}] run data merge entity @s {Pose:{RightArm:[-5f,3f,40f]}}
+execute if entity @s[scores={timer=27}] run data merge entity @s {Pose:{RightArm:[-10f,6f,40f]}}
+execute if entity @s[scores={timer=28}] run data merge entity @s {Pose:{RightArm:[-15f,9f,40f]}}
+execute if entity @s[scores={timer=29}] run data merge entity @s {Pose:{RightArm:[-20f,12f,40f]}}
+execute if entity @s[scores={timer=30}] run data merge entity @s {Pose:{RightArm:[-25f,16f,40f]}}
+    execute if entity @s[scores={timer=31}] run data merge entity @s {Pose:{RightArm:[-30f,20f,40f]}}
+execute if entity @s[scores={timer=32}] run data merge entity @s {Pose:{RightArm:[-32f,15f,40f]}}
+execute if entity @s[scores={timer=33}] run data merge entity @s {Pose:{RightArm:[-34f,10f,40f]}}
+execute if entity @s[scores={timer=34}] run data merge entity @s {Pose:{RightArm:[-35f,5f,40f]}}
+execute if entity @s[scores={timer=35}] run data merge entity @s {Pose:{RightArm:[-36f,0f,40f]}}
+execute if entity @s[scores={timer=36}] run data merge entity @s {Pose:{RightArm:[-37f,-5f,40f]}}
+execute if entity @s[scores={timer=37}] run data merge entity @s {Pose:{RightArm:[-38f,-10f,40f]}}
+execute if entity @s[scores={timer=38}] run data merge entity @s {Pose:{RightArm:[-39f,-15f,40f]}}
+execute if entity @s[scores={timer=39..}] run scoreboard players set @s timer 0

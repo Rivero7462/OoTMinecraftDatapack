@@ -1,0 +1,21 @@
+#Pots
+execute positioned 764 34 2036 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot1] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:carrot_on_a_stick,Count:1,tag:{Unbreakable:1b,Damage:17,HideFlags:63,NutPickup:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Deku Nuts\"}"}}},PickupDelay:0}
+execute positioned 764 34 2036 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot1] if entity @e[type=item,distance=..0.5] run tag @s add Pot1
+execute positioned 765 34 2037 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot2] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{Count:1b,id:"minecraft:shears",tag:{display:{Name:"{\"text\":\"Magic Jar\"}"},Unbreakable:1b,Damage:4,HideFlags:63,SmallJar:1b,PickupItem:1b,Item:1b}}}
+execute positioned 765 34 2037 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot2] if entity @e[type=item,distance=..0.5] run tag @s add Pot2
+
+#Bug Grass
+execute positioned 765 34 2036 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot3] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:12,HideFlags:63,Bug:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Bug\"}"}}},PickupDelay:0}
+execute positioned 765 34 2036 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot3] if entity @e[type=item,distance=..0.5] run tag @s add Pot3
+execute positioned 845 31 2217 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot4] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:12,HideFlags:63,Bug:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Bug\"}"}}},PickupDelay:0}
+execute positioned 845 31 2217 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot4] if entity @e[type=item,distance=..0.5] run tag @s add Pot4
+execute positioned 847 31 2210 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot5] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:12,HideFlags:63,Bug:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Bug\"}"}}},PickupDelay:0}
+execute positioned 847 31 2210 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot5] if entity @e[type=item,distance=..0.5] run tag @s add Pot5
+execute positioned 957 38 2184 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot6] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:12,HideFlags:63,Bug:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Bug\"}"}}},PickupDelay:0}
+execute positioned 957 38 2184 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot6] if entity @e[type=item,distance=..0.5] run tag @s add Pot6
+execute positioned 959 38 2177 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot7] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:12,HideFlags:63,Bug:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Bug\"}"}}},PickupDelay:0}
+execute positioned 959 38 2177 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot7] if entity @e[type=item,distance=..0.5] run tag @s add Pot7
+execute positioned 932 43 1920 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot8] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:12,HideFlags:63,Bug:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Bug\"}"}}},PickupDelay:0}
+execute positioned 932 43 1920 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot8] if entity @e[type=item,distance=..0.5] run tag @s add Pot8
+execute positioned 934 43 1913 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot9] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:12,HideFlags:63,Bug:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Bug\"}"}}},PickupDelay:0}
+execute positioned 934 43 1913 unless block ~ ~ ~ minecraft:grass unless entity @s[tag=Pot9] if entity @e[type=item,distance=..0.5] run tag @s add Pot9

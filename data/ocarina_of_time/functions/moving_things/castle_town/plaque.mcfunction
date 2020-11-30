@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"There are three hollows and an inscription here...\nYe who owns three Spiritual Stones\nStand with the "},{"text":"Ocarina of Time","color":"aqua"},{"text":"\nAnd play the "},{"text":"Song of Time","color":"aqua"},{"text":"\nThat is how the inscription reads.\n "}]

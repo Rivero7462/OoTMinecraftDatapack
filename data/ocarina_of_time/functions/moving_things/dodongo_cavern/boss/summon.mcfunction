@@ -1,0 +1,4 @@
+summon minecraft:armor_stand 2169 13 1905 {Tags:["KingDodongo","DodongoHead"],Rotation:[180f],ArmorItems:[{},{},{},{id:dead_fire_coral_fan,Count:1b,tag:{CustomModelData:1}}],NoGravity:1b,Invisible:1b}
+summon minecraft:armor_stand 2169 13 1913 {Tags:["KingDodongo","DodongoBody"],Rotation:[180f],ArmorItems:[{},{},{},{id:dead_horn_coral_fan,Count:1b,tag:{CustomModelData:1}}],NoGravity:1b,Invisible:1b}
+summon minecraft:ravager 2169 13 1905 {Tags:["KingDodongo","DodongoHealth","Invisible"],Invulnerable:1b,NoAI:1b,PersistenceRequired:1b,DeathLootTable:"ocarina_of_time:entities/nothing",Health:26,Attributes:[{Name:"generic.max_health",Base:26},{Name:"generic.attack_damage",Base:1},{Name:"generic.movement_speed",Base:0.0}],Silent:1,ArmorDropChances:[0f,0f,0f,0f]}
+fill 2166 9 1898 2166 9 1898 minecraft:gold_block

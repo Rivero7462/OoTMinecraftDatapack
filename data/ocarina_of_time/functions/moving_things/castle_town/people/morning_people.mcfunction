@@ -1,0 +1,30 @@
+execute if entity @s[tag=Guard3] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 67 ~
+execute if entity @s[tag=Guard4] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 67 ~
+execute if entity @s[tag=OldMan2] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=BuffGuy2] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=CastleTownLady] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=MamamuYan] at @s if block 850 69 1423 minecraft:gold_block run tp @s 893.488 70 1419.556 43 ~
+execute if entity @s[tag=MamamuYanHair] at @s if block 850 69 1423 minecraft:gold_block run tp @s 893.657 71.2 1419.389 44 ~
+execute if entity @s[tag=RedTwin] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=BlueTwin] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=WonderingGirl] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Shikashi] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=OldLady] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 69.7 ~
+execute if entity @s[tag=ItchyGirl] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=PlatformGuy] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 75 ~
+execute if entity @s[tag=BuffGuy] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=BeardGuy] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Beggar] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 69.5 ~
+execute if entity @s[tag=DogGuy] at @s if block 850 69 1423 minecraft:gold_block unless entity @s[tag=DeadGuard,x=853,y=70,z=1419,dx=0,dz=0] run tp @s 850 70 1421 -90 ~
+execute if entity @s[tag=Generic1] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Generic2] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Generic3] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Generic4] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Generic5] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Generic6] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+execute if entity @s[tag=Generic7] at @s if block 850 69 1423 minecraft:gold_block run tp @s ~ 70 ~
+scoreboard players set @s[tag=MamamuYan] text 1
+scoreboard players set @s[tag=Guard31] text 1
+tag @s[tag=MamamuYan] remove Prize
+
+execute unless block 884 68 1413 minecraft:gold_block run scoreboard players set @s[tag=Guard1] text 1

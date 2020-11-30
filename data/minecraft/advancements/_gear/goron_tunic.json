@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Goron Tunic",
+            "color": "green",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{display:{color:14942208}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Tunic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "nbt": "{display:{color:14942208}}"
+                    }
+                ]
+            }
+        }
+    },
+        "parent": "minecraft:_gear/root"
+}

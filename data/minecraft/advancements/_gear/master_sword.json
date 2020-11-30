@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Master Sword",
+            "color": "green",
+            "bold": false,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_sword"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:_gear/kokiri_sword"
+}

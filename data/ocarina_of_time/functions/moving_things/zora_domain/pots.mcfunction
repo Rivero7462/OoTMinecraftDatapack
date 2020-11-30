@@ -1,0 +1,14 @@
+execute positioned 1775 30 2347 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot1] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:11,HideFlags:63,Heart:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Heart\"}"}}},PickupDelay:0}
+execute positioned 1775 30 2347 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot1] if entity @e[type=item,distance=..0.5] run tag @s add Pot1
+execute positioned 1773 30 2347 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot2] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{Count:1b,id:"minecraft:lapis_lazuli",tag:{display:{Name:"{\"text\":\"Blue Rupee\"}"},Item:1b}}}
+execute positioned 1773 30 2347 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot2] if entity @e[type=item,distance=..0.5] run tag @s add Pot2
+execute positioned 1765 33 2341 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot3] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:shears,Count:1,tag:{Unbreakable:1b,Damage:11,HideFlags:63,Heart:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Heart\"}"}}},PickupDelay:0}
+execute positioned 1765 33 2341 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot3] if entity @e[type=item,distance=..0.5] run tag @s add Pot3
+execute positioned 1769 33 2338 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot5] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{id:carrot_on_a_stick,Count:1,tag:{Unbreakable:1b,Damage:17,HideFlags:63,NutPickup:1b,PickupItem:1b,Item:1b,display:{Name:"{\"text\":\"Deku Nuts\"}"}}},PickupDelay:0}
+execute positioned 1769 33 2338 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot5] if entity @e[type=item,distance=..0.5] run tag @s add Pot5
+
+#Adult/Child
+execute unless entity @a[tag=Adult] positioned 1765 33 2340 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot4] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{Count:1b,id:"minecraft:stick",tag:{display:{Name:"{\"text\":\"Deku Stick\"}"},DekuStick:1b,Item:1b}}}
+execute unless entity @a[tag=Adult] positioned 1765 33 2340 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot4] if entity @e[type=item,distance=..0.5] run tag @s add Pot4
+execute if entity @a[tag=Adult] positioned 1765 33 2340 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot4] unless entity @e[type=item,distance=..0.5] run summon minecraft:item ~ ~ ~ {Item:{Count:1b,id:"minecraft:lime_dye",tag:{display:{Name:"{\"text\":\"Green Rupee\"}"},Item:1b}}}
+execute if entity @a[tag=Adult] positioned 1765 33 2340 unless block ~ ~ ~ minecraft:flower_pot unless entity @s[tag=Pot4] if entity @e[type=item,distance=..0.5] run tag @s add Pot4

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Ruto",
+            "color": "dark_gray",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Princess Ruto\\\"}\"},SkullOwner:{Id:[I;-2058996143,-1247198165,-2051983518,1198816817],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzZjQ3NjgyMDM1ZGNiODZlMzNiYTViNGU5YWJlZWM4YjJjZmRmN2E3ZTg1ZTJiNzMzMzBkODhmYzk0ZjljIn19fQ==\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_secrets/darunia"
+}

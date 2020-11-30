@@ -1,0 +1,3 @@
+function ocarina_of_time:moving_things/kokiri_forest/bean_spots/bean_spot_1
+function ocarina_of_time:moving_things/kokiri_forest/bean_spots/bean_spot_2
+function ocarina_of_time:moving_things/kokiri_forest/bean_spots/bean_spot_3

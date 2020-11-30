@@ -1,0 +1,3 @@
+summon minecraft:zombie -462 27 2013 {Tags:["Wolfos12","Wolfos","Invisible","Right","Resist"],Rotation:[147f],DeathLootTable:"ocarina_of_time:entities/wolfos",Health:20f,Attributes:[{Name:generic.max_health,Base:20},{Name:"generic.movement_speed",Base:0},{Name:"generic.attack_damage",Base:1}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:horn_coral,Count:1b,tag:{CustomModelData:1}}],ArmorDropChances:[0f,0f,0f,0f],NoGravity:1b}
+
+fill -461 27 2015 -461 27 2015 minecraft:gold_block

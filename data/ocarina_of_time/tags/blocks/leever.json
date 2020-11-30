@@ -1,0 +1,21 @@
+{
+    "values": [
+        "minecraft:stone",
+        "minecraft:stone_bricks",
+        "minecraft:grass_block",
+        "minecraft:acacia_leaves",
+        "minecraft:cobblestone",
+        "minecraft:oak_planks",
+        "minecraft:oak_log",
+        "minecraft:birch_log",
+        "minecraft:structure_void",
+        "minecraft:terracotta",
+        "minecraft:smooth_stone_slab",
+        "minecraft:smooth_stone",
+        "minecraft:smooth_sandstone_slab",
+        "minecraft:granite_slab",
+        "minecraft:cobblestone_stairs",
+        "minecraft:barrier",
+        "minecraft:water"
+    ]
+}

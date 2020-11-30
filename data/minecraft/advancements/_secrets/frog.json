@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Frog",
+            "color": "dark_gray",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"\\\"Frog\\\"\"},SkullOwner:{Id:[I;-1098589116,-1763359373,-1630895429,-489885590],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2NiYzUzODljZjU1ZmQyMmVkZjU5ODk5MzVmZGQ1NzdmOWMxOWY5ODI5ZjcwZjE4MzZhZWNiMGNhMzM2ODQ3YyJ9fX0=\"}]}},SecretMask:1b}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_secrets/redead"
+}

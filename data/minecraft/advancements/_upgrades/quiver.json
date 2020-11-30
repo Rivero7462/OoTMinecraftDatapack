@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Quiver",
+            "color": "blue",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:shears",
+            "nbt": "{CustomModelData:7}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bow"
+
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:_upgrades/root"
+}

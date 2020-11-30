@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:ladder",
+        "minecraft:air",
+        "minecraft:grass",
+        "minecraft:vine",
+        "minecraft:fern",
+        "minecraft:player_head",
+        "minecraft:large_fern"
+    ]
+}

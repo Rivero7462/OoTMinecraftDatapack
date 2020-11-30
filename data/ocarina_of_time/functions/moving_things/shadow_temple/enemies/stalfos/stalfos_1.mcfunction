@@ -1,0 +1,3 @@
+summon minecraft:zombie 1752 63 1015 {Tags:["Stalfos1","Stalfos","Invisible"],Rotation:[180f],PersistenceRequired:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1b,tag:{CustomModelData:78}}],DeathLootTable:"ocarina_of_time:entities/bubble",Health:20,Attributes:[{Name:"generic.max_health",Base:20},{Name:"generic.attack_damage",Base:2}],Silent:1,ArmorDropChances:[0f,0f,0f,0f]}
+summon minecraft:armor_stand 1752 63 1015 {Tags:["StalfosShield1","StalfosShield"],Invisible:1b,HandItems:[{},{id:shield,Count:1b,tag:{BlockEntityTag:{Base:8,Patterns:[{Pattern:"cbo",Color:4}]}}}],Marker:1b}
+fill 1752 61 1013 1752 61 1013 minecraft:gold_block

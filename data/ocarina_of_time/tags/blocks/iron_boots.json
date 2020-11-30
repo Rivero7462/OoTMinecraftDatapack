@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:air",
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:polished_andesite",
+        "minecraft:smooth_stone",
+        "minecraft:sand",
+        "minecraft:end_stone_bricks",
+        "minecraft:sea_lantern",
+        "minecraft:prismarine_bricks",
+        "minecraft:red_terracotta"
+    ]
+}

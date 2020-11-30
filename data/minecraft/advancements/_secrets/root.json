@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Secrets",
+            "color": "dark_gray",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "Good Luck"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"Rivero7462\"}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

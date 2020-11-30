@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Big Deku Seed Bullet Bag",
+            "color": "blue",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:shears",
+            "nbt": "{Unbreakable:1b,Damage:39,HideFlags:63}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_upgrades/root"
+}

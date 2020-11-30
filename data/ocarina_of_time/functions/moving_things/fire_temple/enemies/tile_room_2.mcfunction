@@ -1,0 +1,30 @@
+execute if entity @a[x=3080,y=42,z=1928,dx=0,dz=0] run kill @e[type=armor_stand,tag=ExtraFlyingTile]
+execute unless entity @s[scores={lifetime=280..}] if entity @a[x=3080,y=42,z=1928,dx=0,dz=0] run tag @s remove Room
+execute if entity @a[x=3073,y=42,z=1917,dx=0,dz=0] run kill @e[type=armor_stand,tag=ExtraFlyingTile]
+execute unless entity @s[scores={lifetime=280..}] if entity @a[x=3073,y=42,z=1917,dx=0,dz=0] run tag @s remove Room
+
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:zombie 3080 40 1916 {PersistenceRequired:1b,Tags:["FlyingTile9","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:armor_stand 3080 40 1916 {Tags:["FlyingTile9","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:zombie 3084 40 1916 {PersistenceRequired:1b,Tags:["FlyingTile10","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:armor_stand 3084 40 1916 {Tags:["FlyingTile10","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:zombie 3082 40 1918 {PersistenceRequired:1b,Tags:["FlyingTile11","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:armor_stand 3082 40 1918 {Tags:["FlyingTile11","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:zombie 3084 40 1920 {PersistenceRequired:1b,Tags:["FlyingTile12","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run summon minecraft:armor_stand 3084 40 1920 {Tags:["FlyingTile12","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3080,y=42,z=1926,dx=0,dz=0] run tag @s add Room
+
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:zombie 3080 40 1916 {PersistenceRequired:1b,Tags:["FlyingTile9","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:armor_stand 3080 40 1916 {Tags:["FlyingTile9","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:zombie 3084 40 1916 {PersistenceRequired:1b,Tags:["FlyingTile10","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:armor_stand 3084 40 1916 {Tags:["FlyingTile10","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:zombie 3082 40 1918 {PersistenceRequired:1b,Tags:["FlyingTile11","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:armor_stand 3082 40 1918 {Tags:["FlyingTile11","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:zombie 3084 40 1920 {PersistenceRequired:1b,Tags:["FlyingTile12","FlyingTile","ExtraFlyingTile","Wait","Invisible"],DeathLootTable:"ocarina_of_time:entities/nothing",Health:2,Silent:1,ArmorDropChances:[0f,0f,0f,0f],NoAI:1b}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run summon minecraft:armor_stand 3084 40 1920 {Tags:["FlyingTile12","FlyingTile","ExtraFlyingTile"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:smooth_red_sandstone_slab,Count:1b}],DisabledSlots:4144959}
+execute unless entity @s[tag=Room] if entity @a[x=3075,y=42,z=1917,dx=0,dz=0] run tag @s add Room
+
+execute if entity @s[scores={lifetime=1}] run tag @e[type=zombie,tag=FlyingTile9] remove Wait
+execute if entity @s[scores={lifetime=1}] run tag @e[type=zombie,tag=FlyingTile10] remove Wait
+execute if entity @s[scores={lifetime=40}] run tag @e[type=zombie,tag=FlyingTile11] remove Wait
+execute if entity @s[scores={lifetime=80}] run tag @e[type=zombie,tag=FlyingTile12] remove Wait
+execute if entity @s[scores={lifetime=120}] run tag @e[type=zombie,tag=FlyingTile13] remove Wait

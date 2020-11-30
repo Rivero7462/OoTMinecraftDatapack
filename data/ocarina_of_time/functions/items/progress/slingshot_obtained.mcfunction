@@ -1,0 +1,2 @@
+execute if entity @a[nbt={SelectedItem:{tag:{Slingshot:1b}}}] if entity @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield",Count:1b}]}] run tellraw @a ["",{"text":"Navi:","color":"gold"},{"text":" The ","color":"aqua"},{"text":"Slingshot "},{"text":"can't be properly equipped if holding a ","color":"aqua"},{"text":"shield"},{"text":".","color":"aqua"}]
+execute if entity @a[nbt={SelectedItem:{tag:{Slingshot:1b}}}] if entity @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield",Count:1b}]}] run tag @s add SlingshotHelp

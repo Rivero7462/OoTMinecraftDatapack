@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "20 Deku Sticks",
+            "color": "blue",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:stick"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_upgrades/root"
+}

@@ -1,0 +1,6 @@
+summon minecraft:zombie -495 46 1616 {Tags:["Stalfos1","Stalfos","Invisible","StalfosRoom"],Rotation:[180f],PersistenceRequired:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1b,tag:{CustomModelData:78}}],DeathLootTable:"ocarina_of_time:entities/bubble",Health:20,Attributes:[{Name:"generic.max_health",Base:20},{Name:"generic.attack_damage",Base:2}],Silent:1,ArmorDropChances:[0f,0f,0f,0f]}
+summon minecraft:armor_stand -495 46 1616 {Tags:["StalfosShield1","StalfosShield","StalfosRoom"],Invisible:1b,HandItems:[{},{id:shield,Count:1b,tag:{BlockEntityTag:{Base:8,Patterns:[{Pattern:"cbo",Color:4}]}}}],Marker:1b}
+summon minecraft:zombie -505 46 1616 {Tags:["Stalfos2","Stalfos","Invisible","StalfosRoom"],Rotation:[180f],PersistenceRequired:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1b,tag:{CustomModelData:78}}],DeathLootTable:"ocarina_of_time:entities/bubble",Health:20,Attributes:[{Name:"generic.max_health",Base:20},{Name:"generic.attack_damage",Base:2}],Silent:1,ArmorDropChances:[0f,0f,0f,0f]}
+summon minecraft:armor_stand -505 46 1616 {Tags:["StalfosShield2","StalfosShield","StalfosRoom"],Invisible:1b,HandItems:[{},{id:shield,Count:1b,tag:{BlockEntityTag:{Base:8,Patterns:[{Pattern:"cbo",Color:4}]}}}],Marker:1b}
+fill -500 46 1605 -500 46 1605 minecraft:stone_pressure_plate
+fill -488 48 1613 -488 48 1613 minecraft:gold_block

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Upgrades",
+            "color": "blue",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "Deku Seed Bullet Bag"
+        },
+        "icon": {
+            "item": "minecraft:shears",
+            "nbt": "{Unbreakable:1b,Damage:39,HideFlags:63}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shears",
+                        "nbt": "{Unbreakable:1b,Damage:9,HideFlags:63}"
+
+                    }
+                ]
+            }
+        }
+    }
+}

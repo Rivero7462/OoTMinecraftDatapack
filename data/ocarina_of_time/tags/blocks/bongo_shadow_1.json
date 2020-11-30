@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:grass_block",
+        "minecraft:smooth_stone",
+        "minecraft:stone_bricks",
+        "minecraft:bricks",
+        "minecraft:dark_oak_log",
+        "minecraft:dark_oak_wood",
+        "minecraft:quartz_pillar",
+        "minecraft:pink_terracotta"
+    ]
+}

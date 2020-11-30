@@ -1,0 +1,6 @@
+execute unless entity @e[type=zombie,tag=Stalfos1] unless entity @e[type=zombie,tag=Stalfos2] unless block 894 69 -1211 minecraft:gold_block run clone 898 68 -1211 898 68 -1211 898 68 -1201
+execute unless entity @e[type=zombie,tag=Stalfos1] unless entity @e[type=zombie,tag=Stalfos2] unless block 894 69 -1211 minecraft:gold_block run function ocarina_of_time:music/forest_temple
+execute unless entity @e[type=zombie,tag=Stalfos1] unless entity @e[type=zombie,tag=Stalfos2] unless block 894 69 -1211 minecraft:gold_block at @a run playsound minecraft:block.iron_door.open block @a ~ ~ ~ 1
+execute unless entity @e[type=zombie,tag=Stalfos1] unless entity @e[type=zombie,tag=Stalfos2] unless block 894 69 -1211 minecraft:gold_block run fill 888 68 -1201 888 68 -1201 minecraft:stone_pressure_plate replace minecraft:air
+execute unless entity @e[type=zombie,tag=Stalfos1] unless entity @e[type=zombie,tag=Stalfos2] unless block 894 69 -1211 minecraft:gold_block run fill 905 68 -1201 905 68 -1201 minecraft:stone_pressure_plate replace minecraft:air
+execute unless entity @e[type=zombie,tag=Stalfos1] unless entity @e[type=zombie,tag=Stalfos2] unless block 894 69 -1211 minecraft:gold_block run fill 894 69 -1211 894 69 -1211 minecraft:gold_block

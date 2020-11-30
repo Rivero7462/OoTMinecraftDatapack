@@ -1,0 +1,19 @@
+#Tektites
+#1
+execute unless entity @e[type=zombie,tag=Tektite1] run summon minecraft:zombie 2008 85 1503 {Tags:["Tektite1","Tektite","Fire","Water","Invisible"],DeathLootTable:"ocarina_of_time:entities/tektite",IsBaby:1b,Health:6,Attributes:[{Name:generic.movement_speed,Base:0.0},{Name:generic.attack_damage,Base:1}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:fire_coral_block,Count:1b}],ArmorDropChances:[0f,0f,0f,0f],ActiveEffects:[{Id:14,Amplifier:0,ShowParticles:0b,Duration:1000000}]}
+#2
+execute unless entity @e[type=zombie,tag=Tektite2] run summon minecraft:zombie 2009 87 1482 {Tags:["Tektite2","Tektite","Fire","Water","Invisible"],DeathLootTable:"ocarina_of_time:entities/tektite",IsBaby:1b,Health:6,Attributes:[{Name:generic.movement_speed,Base:0.0},{Name:generic.attack_damage,Base:1}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:fire_coral_block,Count:1b}],ArmorDropChances:[0f,0f,0f,0f],ActiveEffects:[{Id:14,Amplifier:0,ShowParticles:0b,Duration:1000000}]}
+#3
+execute unless entity @e[type=zombie,tag=Tektite3] run summon minecraft:zombie 2005 87 1472 {Tags:["Tektite3","Tektite","Fire","Water","Invisible"],DeathLootTable:"ocarina_of_time:entities/tektite",IsBaby:1b,Health:6,Attributes:[{Name:generic.movement_speed,Base:0.0},{Name:generic.attack_damage,Base:1}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:fire_coral_block,Count:1b}],ArmorDropChances:[0f,0f,0f,0f],ActiveEffects:[{Id:14,Amplifier:0,ShowParticles:0b,Duration:1000000}]}
+#4
+execute unless entity @e[type=zombie,tag=Tektite4] run summon minecraft:zombie 2011 95 1464 {Tags:["Tektite4","Tektite","Fire","Water","Invisible"],DeathLootTable:"ocarina_of_time:entities/tektite",IsBaby:1b,Health:6,Attributes:[{Name:generic.movement_speed,Base:0.0},{Name:generic.attack_damage,Base:1}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:fire_coral_block,Count:1b}],ArmorDropChances:[0f,0f,0f,0f],ActiveEffects:[{Id:14,Amplifier:0,ShowParticles:0b,Duration:1000000}]}
+#5
+execute if entity @a[tag=Adult] unless entity @e[type=zombie,tag=Tektite5] run summon minecraft:zombie 2030 144 1360 {Tags:["Tektite5","Tektite","Fire","Water","Invisible"],DeathLootTable:"ocarina_of_time:entities/tektite",IsBaby:1b,Health:6,Attributes:[{Name:generic.movement_speed,Base:0.0},{Name:generic.attack_damage,Base:1}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:fire_coral_block,Count:1b}],ArmorDropChances:[0f,0f,0f,0f],ActiveEffects:[{Id:14,Amplifier:0,ShowParticles:0b,Duration:1000000}]}
+
+#Wall Skulltula
+#1
+execute unless entity @e[type=zombie,tag=WallSkull4] run summon minecraft:zombie 2029 132 1359 {Tags:["WallSkull4","WallSkull","Invisible"],Rotation:[-90f],NoAI:1b,ArmorItems:[{},{},{},{id:red_mushroom_block,Count:1b}],Invulnerable:1b,PersistenceRequired:1b,Health:7,Silent:1,IsBaby:1b,DeathLootTable:"ocarina_of_time:entities/wall_skulltula",ArmorDropChances:[0f,0f,0f,0f],DeathLootTable:"ocarina_of_time:entities/wall_skulltula"}
+#2
+execute unless entity @e[type=zombie,tag=WallSkull5] run summon minecraft:zombie 2025 138 1359 {Tags:["WallSkull5","WallSkull","Invisible"],Rotation:[-90f],NoAI:1b,ArmorItems:[{},{},{},{id:red_mushroom_block,Count:1b}],Invulnerable:1b,PersistenceRequired:1b,Health:7,Silent:1,IsBaby:1b,DeathLootTable:"ocarina_of_time:entities/wall_skulltula",ArmorDropChances:[0f,0f,0f,0f],DeathLootTable:"ocarina_of_time:entities/wall_skulltula"}
+#3
+execute unless entity @e[type=zombie,tag=WallSkull6] run summon minecraft:zombie 2027 148 1359 {Tags:["WallSkull6","WallSkull","Invisible"],Rotation:[-90f],NoAI:1b,ArmorItems:[{},{},{},{id:red_mushroom_block,Count:1b}],Invulnerable:1b,PersistenceRequired:1b,Health:7,Silent:1,IsBaby:1b,DeathLootTable:"ocarina_of_time:entities/wall_skulltula",ArmorDropChances:[0f,0f,0f,0f],DeathLootTable:"ocarina_of_time:entities/wall_skulltula"}

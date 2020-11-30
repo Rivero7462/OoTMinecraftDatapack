@@ -1,0 +1,3 @@
+execute unless entity @a[dx=0,dy=0,dz=0] if entity @s[tag=Attack] unless entity @s[tag=Stun] if entity @s[scores={timer=20..35}] run particle minecraft:dust 0 .4 1 1 ^ ^ ^1 0 0 0.001 100 0 force
+execute unless entity @a[dx=0,dy=0,dz=0] if entity @s[tag=Attack] unless entity @s[tag=Stun] if entity @s[scores={timer=20..35}] if entity @a[distance=..200] if block ^ ^ ^ minecraft:air positioned ^ ^ ^.5 run function ocarina_of_time:enemies/beamos/lazer
+execute if entity @a[dx=0,dy=0,dz=0] if entity @s[scores={timer=35..}] unless entity @a[nbt={ActiveEffects:[{Id:20b}]}] run effect give @a minecraft:wither 2 0 true

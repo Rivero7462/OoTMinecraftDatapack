@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Biggest Quiver",
+            "color": "blue",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:shears",
+            "nbt": "{CustomModelData:9}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_upgrades/big_quiver"
+}

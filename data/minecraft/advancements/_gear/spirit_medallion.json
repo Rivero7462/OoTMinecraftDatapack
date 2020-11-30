@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Spirit Medallion",
+            "color": "green",
+            "bold": false,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:shears",
+            "nbt": "{CustomModelData:6}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_gear/shadow_medallion"
+}

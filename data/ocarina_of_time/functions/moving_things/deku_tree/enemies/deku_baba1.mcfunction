@@ -1,0 +1,6 @@
+summon minecraft:wither_skeleton 1372.8 89 -677.5 {Tags:["DekuBaba4","DekuBabaBody4","Invisible"],NoAI:1b,PersistenceRequired:1,Health:1,Silent:1,CustomNameVisible:1,Attributes:[{Name:"generic.attack_damage",Base:1}],ActiveEffects:[{Id:14,Amplifier:0,ShowParticles:0b,Duration:1000000}],DeathLootTable:"ocarina_of_time:entities/dekubaba"}
+summon minecraft:armor_stand 1372.8 88.6 -677.5 {Tags:["DekuBaba4"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:stick,Count:1,Damage:0}],DisabledSlots:4144959}
+summon minecraft:armor_stand 1372.8 87.8 -677.5 {Tags:["DekuBaba4"],Marker:1b,Rotation:[180f],Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:stick,Count:1,Damage:0}],DisabledSlots:4144959}
+summon minecraft:armor_stand 1372.68 89.73 -678 {Tags:["DekuBaba4","DekuBaba"],Marker:1b,Rotation:[0f],Invisible:1b,NoGravity:1b,ShowArms:0b,Small:1b,ArmorItems:[{},{},{},{id:lapis_block,Count:1,Damage:0}],DisabledSlots:4144959,Pose:{Head:[0f,0f,-45f]}}
+summon minecraft:armor_stand 1373.05 89.73 -678 {Tags:["DekuBaba4","DekuBaba"],Marker:1b,Rotation:[180f],Invisible:1b,NoGravity:1b,ShowArms:0b,Small:1b,ArmorItems:[{},{},{},{id:lapis_block,Count:1,Damage:0}],DisabledSlots:4144959,Pose:{Head:[0f,0f,-45f]}}
+scoreboard players set @e[type=area_effect_cloud,tag=DekuBabaHealth4] lifetime 0

@@ -1,0 +1,6 @@
+#1
+execute unless entity @e[type=zombie,tag=Dodongo1] run summon minecraft:zombie 2237 37 1920 {Tags:["Dodongo1","Dodongo","Invisible"],DeathLootTable:"ocarina_of_time:entities/dodongo",IsBaby:1b,Health:17,Attributes:[{Name:generic.movement_speed,Base:0.08},{Name:generic.attack_damage,Base:2}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:dead_tube_coral,Count:1b,tag:{CustomModelData:1}}],Invulnerable:1b,ArmorDropChances:[0f,0f,0f,0f]}
+#2
+execute unless entity @e[type=zombie,tag=Dodongo2] run summon minecraft:zombie 2226 37 1926 {Tags:["Dodongo2","Dodongo","Invisible"],DeathLootTable:"ocarina_of_time:entities/dodongo",IsBaby:1b,Health:17,Attributes:[{Name:generic.movement_speed,Base:0.08},{Name:generic.attack_damage,Base:2}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:dead_tube_coral,Count:1b,tag:{CustomModelData:1}}],Invulnerable:1b,ArmorDropChances:[0f,0f,0f,0f]}
+#3
+execute unless entity @e[type=zombie,tag=Dodongo3] run summon minecraft:zombie 2226 37 1940 {Tags:["Dodongo3","Dodongo","Invisible"],DeathLootTable:"ocarina_of_time:entities/dodongo",IsBaby:1b,Health:17,Attributes:[{Name:generic.movement_speed,Base:0.08},{Name:generic.attack_damage,Base:2}],Silent:1b,PersistenceRequired:1,ArmorItems:[{},{},{},{id:dead_tube_coral,Count:1b,tag:{CustomModelData:1}}],Invulnerable:1b,ArmorDropChances:[0f,0f,0f,0f]}

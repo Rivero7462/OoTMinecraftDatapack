@@ -1,0 +1,8 @@
+playsound minecraft:music_disc.blocks record @s ~ ~ ~ 1 1 1
+tag @s add CowMilk
+execute if entity @a[tag=Adult] if entity @e[type=area_effect_cloud,tag=Progress,tag=GotEpona] unless entity @a[tag=NoTeleport] if entity @a[tag=EponaSpot] if block ~1 ~ ~ minecraft:air if block ~-1 ~ ~ minecraft:air if block ~ ~ ~1 minecraft:air if block ~ ~ ~-1 minecraft:air run tp @e[type=horse,tag=Epona] @s
+execute if entity @a[tag=Adult] if entity @e[type=area_effect_cloud,tag=Progress,tag=GotEpona] unless entity @a[tag=NoTeleport] if entity @a[tag=EponaSpot] if block ~1 ~ ~ minecraft:air if block ~-1 ~ ~ minecraft:air if block ~ ~ ~1 minecraft:air if block ~ ~ ~-1 minecraft:air run forceload remove all
+execute if entity @a[tag=Adult] if entity @e[type=area_effect_cloud,tag=Progress,tag=GotEpona] unless entity @a[tag=NoTeleport] if entity @a[tag=EponaSpot] unless block ~1 ~ ~ minecraft:air run tellraw @a {"text":"Epona can't reach your position..."}
+execute if entity @a[tag=Adult] if entity @e[type=area_effect_cloud,tag=Progress,tag=GotEpona] unless entity @a[tag=NoTeleport] if entity @a[tag=EponaSpot] unless block ~-1 ~ ~ minecraft:air run tellraw @a {"text":"Epona can't reach your position..."}
+execute if entity @a[tag=Adult] if entity @e[type=area_effect_cloud,tag=Progress,tag=GotEpona] unless entity @a[tag=NoTeleport] if entity @a[tag=EponaSpot] unless block ~ ~ ~1 minecraft:air run tellraw @a {"text":"Epona can't reach your position..."}
+execute if entity @a[tag=Adult] if entity @e[type=area_effect_cloud,tag=Progress,tag=GotEpona] unless entity @a[tag=NoTeleport] if entity @a[tag=EponaSpot] unless block ~ ~ ~-1 minecraft:air run tellraw @a {"text":"Epona can't reach your position..."}

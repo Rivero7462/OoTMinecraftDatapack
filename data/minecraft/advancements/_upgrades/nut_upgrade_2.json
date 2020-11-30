@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "40 Deku Nuts",
+            "color": "blue",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{Unbreakable:1b,Damage:17,HideFlags:63}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_upgrades/nut_upgrade_1"
+}

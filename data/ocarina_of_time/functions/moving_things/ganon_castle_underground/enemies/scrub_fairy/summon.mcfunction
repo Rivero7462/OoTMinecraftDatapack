@@ -1,0 +1,12 @@
+execute unless entity @e[type=armor_stand,tag=BusinessScrub14] run summon minecraft:armor_stand -497 19.3 2024 {Tags:["BusinessScrub","BusinessScrub14","Npc"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1,tag:{CustomModelData:105}}]}
+execute unless entity @e[type=armor_stand,tag=BusinessScrub15] run summon minecraft:armor_stand -494 19.3 2028 {Tags:["BusinessScrub","BusinessScrub15","Npc"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1,tag:{CustomModelData:105}}]}
+execute unless entity @e[type=armor_stand,tag=BusinessScrub16] run summon minecraft:armor_stand -488 19.3 2028 {Tags:["BusinessScrub","BusinessScrub16","Npc"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1,tag:{CustomModelData:105}}]}
+execute unless entity @e[type=armor_stand,tag=BusinessScrub17] run summon minecraft:armor_stand -485 19.3 2024 {Tags:["BusinessScrub","BusinessScrub17","Npc"],Marker:1b,Invisible:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:cobblestone,Count:1,tag:{CustomModelData:105}}]}
+summon minecraft:item -493 20 2023 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}
+summon minecraft:item -492 20 2024 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}
+summon minecraft:item -490 20 2024 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}
+summon minecraft:item -489 20 2023 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}
+summon minecraft:item -489 20 2021 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}
+summon minecraft:item -490 20 2020 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}
+summon minecraft:item -492 20 2020 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}
+summon minecraft:item -493 20 2021 {Item:{id:shears,Count:1,tag:{display:{Name:"{\"text\":\"Fairy\"}"},Unbreakable:1b,Damage:10,HideFlags:63,Fairy:1b,PickupItem:1b}},PickupDelay:0}

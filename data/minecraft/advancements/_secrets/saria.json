@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Saria",
+            "color": "dark_gray",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Saria\\\"}\"},SkullOwner:{Id:[I;-477273199,-1722397882,-1455817788,2100470143],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIyOGVlZmU3YWVjZjFkYWUzM2E5Y2I2ZDcyYWYxYzRjZDI2YmQzNjM1N2QzMjkyZGJlOWNlOTIzNjhhOWM5NyJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minecraft:_secrets/root"
+}

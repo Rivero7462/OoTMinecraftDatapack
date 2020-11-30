@@ -1,0 +1,2 @@
+execute if block ^ ^ ^ minecraft:air unless entity @e[type=ravager,tag=BarinadeBody,dx=1,y=52,dz=1,dy=8] run particle minecraft:crit ~ ~-.2 ~ 0 0 0 0 1 normal
+execute if block ^ ^ ^ minecraft:air positioned ~-1 ~ ~-1 unless entity @e[type=armor_stand,tag=BarinadeControl,dx=1,y=52,dz=1,dy=8] positioned ~1 ~ ~1 unless entity @e[type=ravager,tag=BarinadeBody,dx=1,y=52,dz=1,dy=8] positioned ^ ^ ^.8 run function ocarina_of_time:moving_things/jabu_jabu/boss/particle
