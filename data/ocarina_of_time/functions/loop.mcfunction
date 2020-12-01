@@ -21,8 +21,3 @@ stopsound @a music minecraft:music.game
 stopsound @a music minecraft:music.creative
 stopsound @a music minecraft:music.menu
 stopsound @a ambient minecraft:ambient.cave
-
-#Delete me -Gopher
-#No, delete me -Rivero
-#ooh. Try again -Spongebob
-#Last attempt?
