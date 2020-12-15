@@ -1,2 +1,2 @@
-clear @a minecraft:barrier{SwordHand:1b}
-effect clear @a minecraft:mining_fatigue
+clear @s minecraft:barrier{SwordHand:1b}
+effect clear @s minecraft:mining_fatigue
