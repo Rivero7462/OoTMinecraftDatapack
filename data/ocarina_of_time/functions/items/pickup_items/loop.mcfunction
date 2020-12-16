@@ -2,7 +2,7 @@
 execute if entity @s[nbt={Inventory:[{tag:{BigFairy:1b}}]}] run function ocarina_of_time:items/big_fairy/big_fairy
 
 #Bomb
-give @s[nbt={Inventory:[{tag:{BombPickup:1b}}]}] minecraft:tnt{display:{Name:"\"Bomb\""}} 5
+give @s[nbt={Inventory:[{tag:{BombPickup:1b}}]}] minecraft:tnt{display:{Name:"{\"text\":\"Bomb\"}"}} 5
 
 #Bombchu
 scoreboard players add @s[nbt={Inventory:[{tag:{BombchuPickup10:1b}}]}] BombchuCount 10

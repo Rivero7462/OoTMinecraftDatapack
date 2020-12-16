@@ -35,7 +35,7 @@ execute if entity @a[scores={BombchuCount=51..}] run scoreboard players set @s B
 execute as @a[scores={UseItem=1..}] at @s unless block ~ ~-.1 ~ minecraft:air unless entity @s[tag=BowlingGame] if entity @s[scores={BombchuCount=1..}] if entity @s[nbt={SelectedItem:{tag:{Bombchu:1b}}}] run function ocarina_of_time:items/bombchu/summon
 execute as @a[scores={UseItem=1..}] at @s unless block ~ ~-.1 ~ minecraft:air if entity @s[tag=BowlingGame] if entity @s[scores={MinigameBombchus=1..}] if entity @s[nbt={SelectedItem:{tag:{Bombchu:1b}}}] run function ocarina_of_time:items/bombchu/summon
 
-#Boomerang
+#Boomerang --------------------------------------Might have issues if two players use simultaneously--------------------------------------
 execute as @a at @s if entity @s[scores={UseItem=1..}] if entity @s[scores={Boomerang=1..}] if entity @s[nbt={SelectedItem:{tag:{Boomerang:1b}}}] run tag @s add BoomerangMode
 execute as @a[scores={Boomerang=1..}] at @s unless entity @s[nbt={SelectedItem:{tag:{Boomerang:1b}}}] run scoreboard players set @s Boomerang 0
 execute as @a[scores={Boomerang=1..}] at @s unless entity @s[scores={UseItem=1..}] run scoreboard players set @s Boomerang 0
@@ -68,7 +68,7 @@ execute as @a at @s if entity @s[scores={UseItem=1..}] if entity @s[nbt={Selecte
 #Blue Fire
 execute as @a at @s if entity @s[scores={UseItem=1..}] if entity @s[nbt={SelectedItem:{tag:{BlueFire:1b}}}] rotated ~ 0 positioned ^ ^ ^1 run function ocarina_of_time:items/bottled_items/blue_fire
 
-#Chest
+#Chest --------------------------------------Might still be bugged, but only in an extreme edge case--------------------------------------
 execute if entity @a[scores={ChestJingle=1..}] at @a anchored eyes positioned ^ ^1.5 ^ anchored feet run function ocarina_of_time:items/chest/loop
 
 #Claim Check
@@ -85,12 +85,12 @@ execute as @a[tag=BurnTime] at @s run function ocarina_of_time:items/deku_stick/
 execute if entity @a[tag=Adult] as @e[type=item,nbt={Item:{tag:{DekuStick:1b}}}] run kill @s
 
 #Din's Fire
-execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{DinFire:1b}}}] unless entity @s[level=3..] run tellraw @a ["",{"text":"Not enough "},{"text":"Magic","color":"green"},{"text":"!"}]
-execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{DinFire:1b}}}] if entity @s[scores={SpiritMagic=1..}] run tellraw @a {"text":"Cannot use right now."}
+execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{DinFire:1b}}}] unless entity @s[level=3..] run tellraw @s ["",{"text":"Not enough "},{"text":"Magic","color":"green"},{"text":"!"}]
+execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{DinFire:1b}}}] if entity @s[scores={SpiritMagic=1..}] run tellraw @s {"text":"Cannot use right now."}
 execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{DinFire:1b}}}] if entity @s[level=3..] run tag @s add DinFire
 execute as @a at @s if entity @s[tag=DinFire] run function ocarina_of_time:items/din_fire
 
-#Dog
+#Dog --------------------------------------UNEDITED--------------------------------------
 execute as @e[type=wolf,tag=PickupDog,tag=ThrowingCucco] run scoreboard players add @s timer 1
 execute as @e[type=wolf,tag=PickupDog] unless entity @s[tag=ThrowingCucco] run scoreboard players set @s timer 0
 execute as @e[type=wolf,tag=PickupDog] at @s unless entity @e[type=wolf,tag=PickupDog,tag=HoldingCucco] if entity @a[distance=..1] unless block ~ ~ ~ minecraft:ladder unless block ~ ~ ~ minecraft:water if entity @a[scores={time=13001..23000}] run tag @s add HoldingCucco
@@ -98,7 +98,7 @@ execute as @e[type=wolf,tag=PickupDog,tag=HoldingCucco] at @a if entity @a[score
 execute unless entity @e[type=chicken,tag=Cucco,tag=HoldingCucco] unless entity @e[type=wolf,tag=PickupDog,tag=HoldingCucco] run scoreboard objectives remove CrouchCucco
 
 #Fairy Bow
-execute if entity @a[scores={ArrowCount2=1..}] run tag @a remove EmptyBow
+execute as entity @a[scores={ArrowCount2=1..}] run tag @s remove EmptyBow
 
 #Goron Tunic
 execute as @a[gamemode=adventure] if entity @s[tag=HotArea] run function ocarina_of_time:items/goron_tunic
@@ -106,20 +106,20 @@ execute as @a if entity @s[tag=HotArea] if entity @s[nbt={Inventory:[{Slot:102b,
 execute as @a unless entity @s[tag=HotArea] run scoreboard players reset @p FireTimer
 
 #Half Damage
-execute if entity @a[tag=HalfDamage] run effect give @a minecraft:resistance 1000000 1 true
-execute if entity @a[tag=HalfDamage] run effect give @a minecraft:poison 1 0 true
+execute as entity @a[tag=HalfDamage] run effect give @s minecraft:resistance 1000000 1 true
+execute as entity @a[tag=HalfDamage] run effect give @s minecraft:poison 1 0 true
 
 #Heart
 execute as @a at @s if entity @s[tag=HeartCoolDown] run function ocarina_of_time:items/hearts/heart
 
-#Hookshot
+#Hookshot --------------------------------------NEEDS REWRITE--------------------------------------
 execute as @a[scores={UseItem=1..}] at @s unless entity @a[tag=PlayingSong] if entity @s[nbt={FallDistance:0.0f,SelectedItem:{tag:{Hookshot:1b}}}] unless entity @s[tag=NoHookshot] unless entity @e[type=area_effect_cloud,tag=Hookshot] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["Hookshot"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 execute as @a[scores={UseItem=1..}] at @s unless entity @a[tag=PlayingSong] if entity @s[nbt={FallDistance:0.0f,Inventory:[{Slot:-106b,tag:{Hookshot:1b}}]}] unless entity @s[tag=NoHookshot] unless entity @e[type=area_effect_cloud,tag=Hookshot] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["Hookshot"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 #Hover Boots
 execute as @a at @s if entity @s[nbt={Inventory:[{Slot:100b,tag:{HoverBoots:1b}}]}] run function ocarina_of_time:items/boots/hover_boots
 
-#Iron Boots
+#Iron Boots --------------------------------------NEEDS REWRITE--------------------------------------
 execute as @a at @s if entity @s[nbt={Inventory:[{Slot:100b,tag:{IronBoots:1b}}]}] unless entity @e[type=area_effect_cloud,tag=Hookshot] run function ocarina_of_time:items/boots/iron_boots
 execute unless entity @a[tag=NoIronBoots] unless entity @a[nbt={Inventory:[{Slot:100b,tag:{IronBoots:1b}}]}] run function ocarina_of_time:items/boots/no_iron_boots
 
@@ -132,15 +132,15 @@ execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{L
 execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{LensOfTruth2:1b}}}] run function ocarina_of_time:items/lens_of_truth/off
 execute as @a[tag=HoldLens] at @s unless entity @a[nbt={Inventory:[{id:"minecraft:carved_pumpkin",Slot:103b}]}] run function ocarina_of_time:items/lens_of_truth/off_2
 execute as @a[tag=HoldLens] at @s if entity @a[nbt={Inventory:[{id:"minecraft:carved_pumpkin",Slot:103b}]}] run function ocarina_of_time:items/lens_of_truth/magic
-execute unless entity @a[tag=HoldLens] if entity @a[nbt={Inventory:[{id:"minecraft:carved_pumpkin"}]}] run clear @a minecraft:carved_pumpkin{HoldLens:1b}
+execute as entity @a[tag=!HoldLens] if entity @s[nbt={Inventory:[{id:"minecraft:carved_pumpkin"}]}] run clear @s minecraft:carved_pumpkin{HoldLens:1b}
 
 #Magic
 kill @e[type=experience_orb]
 experience set @a 0 points
 
 #Mirror Shield
-execute if entity @a[tag=Reflect] at @a anchored eyes positioned ^ ^1 ^1 if entity @a[nbt={Inventory:[{Slot:-106b,tag:{MirrorShield:1b}}]}] run function ocarina_of_time:items/mirror_shield/mirror_shield
-execute if entity @a[tag=Reflect] at @a anchored eyes positioned ^ ^1 ^1 if entity @a[nbt={SelectedItem:{id:"minecraft:shield",tag:{MirrorShield:1b}}}] run function ocarina_of_time:items/mirror_shield/mirror_shield
+execute as entity @a[tag=Reflect] anchored eyes positioned ^ ^1 ^1 if entity @a[nbt={Inventory:[{Slot:-106b,tag:{MirrorShield:1b}}]}] run function ocarina_of_time:items/mirror_shield/mirror_shield
+execute as entity @a[tag=Reflect] @a anchored eyes positioned ^ ^1 ^1 if entity @a[nbt={SelectedItem:{id:"minecraft:shield",tag:{MirrorShield:1b}}}] run function ocarina_of_time:items/mirror_shield/mirror_shield
 
 #Navi
 execute if entity @a[tag=NoNavi] run scoreboard players reset @a Navi
@@ -158,14 +158,14 @@ execute as @a at @s if entity @s[scores={Navi6=10..}] unless entity @s[tag=NoNav
 execute as @a at @s if entity @s[scores={Navi=1..}] unless entity @s[tag=NoNavi] run function ocarina_of_time:items/navi/navi_scores
 
 #Nayu's Love
-execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{NayruLove:1b}}}] unless entity @s[level=6..] run tellraw @a ["",{"text":"Not enough "},{"text":"Magic","color":"green"},{"text":"!"}]
-execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{NayruLove:1b}}}] if entity @s[scores={SpiritMagic=1..}] run tellraw @a {"text":"Cannot use right now."}
+execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{NayruLove:1b}}}] unless entity @s[level=6..] run tellraw @s ["",{"text":"Not enough "},{"text":"Magic","color":"green"},{"text":"!"}]
+execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{NayruLove:1b}}}] if entity @s[scores={SpiritMagic=1..}] run tellraw @s {"text":"Cannot use right now."}
 execute as @a[scores={UseItem=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{NayruLove:1b}}}] if entity @s[level=6..] run tag @s add NayruLove
-execute as @a at @s if entity @s[tag=NayruLove] run function ocarina_of_time:items/nayru_love
+execute as @a[tag=NayruLove] at @s run function ocarina_of_time:items/nayru_love
 
-#Ocarina's
-execute if entity @a[scores={UseItem=1..},tag=NoOcarina] if entity @a[nbt={SelectedItem:{tag:{OcarinaSaria:1b}}}] run tellraw @a {"text":"Cannot use ocarina here..."}
-execute if entity @a[scores={UseItem=1..},tag=NoOcarina] if entity @a[nbt={SelectedItem:{tag:{OcarinaZelda:1b}}}] run tellraw @a {"text":"Cannot use ocarina here..."}
+#Ocarinas
+execute as @a at @s if entity @s[scores={UseItem=1..},tag=NoOcarina] if entity @s[nbt={SelectedItem:{tag:{OcarinaSaria:1b}}}] run tellraw @s {"text":"Cannot use ocarina here..."}
+execute as @a at @s if entity @s[scores={UseItem=1..},tag=NoOcarina] if entity @s[nbt={SelectedItem:{tag:{OcarinaZelda:1b}}}] run tellraw @s {"text":"Cannot use ocarina here..."}
 execute as @a[tag=NoOcarina,tag=PlayingSong] run function ocarina_of_time:items/ocarina/ocarina_3
 execute as @a at @s if entity @s[tag=PlayingSong] run function ocarina_of_time:items/ocarina/ocarina_2
 execute as @a at @s if entity @s[tag=PlayingSong] unless entity @s[nbt={FallDistance:0.0f}] run tellraw @s {"text":"Don't move or jump to use the ocarina."}
@@ -174,8 +174,8 @@ execute as @a at @s if entity @s[scores={Ocarina=1..}] run function ocarina_of_t
 execute unless entity @a[tag=PlayingSong] run scoreboard objectives remove Ocarina
 
 #Pants
-replaceitem entity @a armor.legs minecraft:golden_leggings{Unbreakable:1b,display:{Name:"{\"text\":\"\"}"},Enchantments:[{id:depth_strider,lvl:2},{id:respiration,lvl:1},{id:binding_curse,lvl:1}],HideFlags:63}
-kill @e[type=item,nbt={Item:{tag:{display:{Name:"{\"text\":\"\"}"}}}}]
+replaceitem entity @a armor.legs minecraft:golden_leggings{Unbreakable:1b,display:{Name:"{\"text\":\" \"}"},Enchantments:[{id:depth_strider,lvl:2},{id:respiration,lvl:1},{id:binding_curse,lvl:1}],HideFlags:63}
+kill @e[type=item,nbt={Item:{tag:{display:{Name:"{\"text\":\" \"}"}}}}]
 
 #Player Health
 execute as @a at @s if entity @s[scores={Hearts=0..17}] run function ocarina_of_time:items/player_health
@@ -199,7 +199,7 @@ execute as @a[tag=!HoldingRock] at @s unless entity @e[type=zombie,tag=Rock] unl
 execute if entity @a[tag=HoldingRock] unless entity @e[type=zombie,tag=Rock] run tag @a remove HoldingRock
 
 #Shard of Agony
-execute if entity @a[tag=ShardAgony] at @a run function ocarina_of_time:items/shard_of_agony
+execute as entity @a[tag=ShardAgony] at @s run function ocarina_of_time:items/shard_of_agony
 
 #Slingshot
 execute if entity @a[scores={DekuSeeds2=1..}] run tag @a remove EmptySlingshot
@@ -209,11 +209,11 @@ execute as @a at @s if entity @s[tag=SwimUp] run function ocarina_of_time:items/
 
 #Zora Tunic
 execute as @a if entity @s[nbt={Inventory:[{Slot:102b,Count:1b,tag:{ZoraTunic:1b}}]}] run gamerule drowningDamage false
-execute as @a unless entity @s[nbt={Inventory:[{Slot:102b,Count:1b,tag:{ZoraTunic:1b}}]}] run gamerule drowningDamage true
+#execute as @a unless entity @s[nbt={Inventory:[{Slot:102b,Count:1b,tag:{ZoraTunic:1b}}]}] run gamerule drowningDamage true
 execute as @a at @s if block ~ ~1.4 ~ minecraft:water store result score @s Drowning run data get entity @s Air
 execute as @a at @s if block ~ ~1.4 ~ minecraft:water unless entity @s[nbt={Inventory:[{Slot:102b,Count:1b,tag:{ZoraTunic:1b}}]}] run tag @a add Drowning
-execute if entity @a[tag=Drowning] run scoreboard objectives setdisplay sidebar Drowning
-execute if entity @a[tag=Drowning] run tag @a add HideDisplayScore
+execute if entity @p[tag=Drowning] run scoreboard objectives setdisplay sidebar Drowning
+execute if entity @p[tag=Drowning] run tag @a add HideDisplayScore
 
 execute as @a at @s if block ~ ~1.4 ~ minecraft:water if entity @s[nbt={Inventory:[{Slot:102b,Count:1b,tag:{ZoraTunic:1b}}]}] run tag @a remove Drowning
 execute as @a at @s unless block ~ ~1.4 ~ minecraft:water run tag @a remove Drowning

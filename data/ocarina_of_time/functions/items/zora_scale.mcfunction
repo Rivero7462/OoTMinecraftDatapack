@@ -8,9 +8,9 @@ execute unless entity @a[gamemode=creative] unless entity @a[gamemode=spectator]
 execute unless entity @a[gamemode=creative] unless entity @a[gamemode=spectator] if entity @s[scores={Swimming=20..}] if block ~ ~3 ~ minecraft:ladder run tp @s ~ ~.7 ~
 
 execute if block ~ ~1 ~ minecraft:air run tag @s remove SwimUp
-execute if block ~ ~1 ~ minecraft:air run scoreboard objectives remove SwimTime
-execute if block ~ ~1 ~ minecraft:air run scoreboard objectives remove Swimming
+execute if block ~ ~1 ~ minecraft:air run scoreboard players reset @s SwimTime
+execute if block ~ ~1 ~ minecraft:air run scoreboard players reset @s Swimming
 
 execute if block ~ ~1 ~ minecraft:ladder[waterlogged=false] run tag @s remove SwimUp
-execute if block ~ ~1 ~ minecraft:ladder[waterlogged=false] run scoreboard objectives remove SwimTime
-execute if block ~ ~1 ~ minecraft:ladder[waterlogged=false] run scoreboard objectives remove Swimming
+execute if block ~ ~1 ~ minecraft:ladder[waterlogged=false] run scoreboard players reset @s SwimTime
+execute if block ~ ~1 ~ minecraft:ladder[waterlogged=false] run scoreboard players reset @s Swimming

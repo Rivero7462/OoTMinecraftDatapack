@@ -2,7 +2,7 @@ scoreboard objectives add SpiritMagic dummy
 scoreboard players add @s SpiritMagic 1
 
 execute if entity @s[scores={SpiritMagic=1}] run playsound minecraft:entity.illusioner.prepare_blindness hostile @a ~ ~ ~ 2 .8
-execute if entity @s[scores={SpiritMagic=1}] run experience add @a -3 levels
+execute if entity @s[scores={SpiritMagic=1}] run experience add @s -3 levels
 execute if entity @s[scores={SpiritMagic=1}] run summon firework_rocket ~ ~1 ~ {Silent:1b,LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;16777215]}]}}}}
 execute if entity @s[scores={SpiritMagic=1}] run effect give @p resistance 1000000 255 true
 execute if entity @s[scores={SpiritMagic=2}] run effect clear @p resistance
@@ -48,4 +48,4 @@ execute if entity @s[scores={SpiritMagic=1}] positioned 938 83 -1154 if entity @
 
 #After
 execute if entity @s[scores={SpiritMagic=30}] run tag @s remove DinFire
-execute if entity @s[scores={SpiritMagic=30}] run scoreboard objectives remove SpiritMagic
+execute if entity @s[scores={SpiritMagic=30}] run scoreboard players reset @s SpiritMagic
