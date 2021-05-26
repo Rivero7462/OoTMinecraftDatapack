@@ -1,8 +1,8 @@
-#Death Mountain* ????
+#Death Mountain*
 execute if entity @s[x=2736,y=56,z=1965,dx=5,dz=5] run function ocarina_of_time:teleports/death_mountain_crater/death_mountain/to
 execute if entity @s[x=2691,y=26,z=1940,dx=5,dz=5] run function ocarina_of_time:teleports/death_mountain_crater/death_mountain/from
 
-#Goron City* ????
+#Goron City*
 execute if entity @s[x=2687,y=42,z=1983,dx=5,dz=2] run function ocarina_of_time:teleports/death_mountain_crater/goron_city/to
 execute if entity @s[x=2689,y=26,z=1940,dx=0,dz=0] run function ocarina_of_time:teleports/death_mountain_crater/goron_city/from
 
