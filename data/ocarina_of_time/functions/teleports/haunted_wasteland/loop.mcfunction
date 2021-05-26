@@ -1,3 +1,4 @@
+#IDK How this should be done
 #Gerudo Fortress
 execute at @s if block ~ ~-4 ~ minecraft:polished_granite run function ocarina_of_time:teleports/haunted_wasteland/gerudo_fortress/to
 execute at @s if block ~ ~-3 ~ minecraft:polished_granite run function ocarina_of_time:teleports/haunted_wasteland/gerudo_fortress/to

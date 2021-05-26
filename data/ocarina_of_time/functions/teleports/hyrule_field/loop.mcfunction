@@ -1,24 +1,24 @@
-#Kokiri Forest
+#Kokiri Forest*
 execute if entity @s[x=1082,y=67,z=2106,dx=0,dz=2] run function ocarina_of_time:teleports/hyrule_field/kokiri_forest/to
 execute if entity @s[x=911,y=71,z=2049,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/kokiri_forest/from
 
-#Zora's River
+#Zora's River*
 execute if entity @s[x=1099,y=66,z=1992,dx=2,dy=8,dz=4] run function ocarina_of_time:teleports/hyrule_field/zora_river/to
 execute if entity @s[x=1099,y=64,z=1997,dx=2,dy=10,dz=4] run function ocarina_of_time:teleports/hyrule_field/zora_river/to
 execute if entity @a[x=911,y=71,z=2047,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/zora_river/from
 execute if entity @a[x=909,y=71,z=2047,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/zora_river/from
 
-#Kakariko Village
+#Kakariko Village*
 execute positioned 1067 71 1903 if entity @s[distance=..6] run function ocarina_of_time:teleports/hyrule_field/kakariko/to
 execute if entity @a[x=911,y=71,z=2045,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/kakariko/from
 
-#Castle Town
+#Castle Town*
 execute unless entity @s[tag=Adult] if entity @s[x=969,y=67,z=1902,dx=9,dy=1,dz=5] run function ocarina_of_time:teleports/hyrule_field/castle_town/to_castle_town
-#Death Town
+#Death Town*
 execute if entity @s[tag=Adult,x=969,y=67,z=1902,dx=9,dy=1,dz=5] run function ocarina_of_time:teleports/hyrule_field/castle_town/to_death_town
 execute if entity @a[x=911,y=71,z=2043,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/castle_town/from
 
-#Lon Lon Ranch
+#Lon Lon Ranch* ??
 execute positioned 926 78 2031 if entity @s[distance=..5] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/to
 execute if entity @a[x=907,y=71,z=2041,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/from
 execute if entity @a[x=907,y=71,z=2043,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/from_other
@@ -26,11 +26,11 @@ execute if entity @a[x=907,y=71,z=2045,dx=0,dz=0] run function ocarina_of_time:t
 execute if entity @a[x=907,y=71,z=2047,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/from_south
 execute if entity @a[x=907,y=71,z=2049,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/from_west
 
-#Gerudo Valley
+#Gerudo Valley*
 execute if entity @s[x=721,y=71,z=2035,dx=4,dy=5,dz=3] run function ocarina_of_time:teleports/hyrule_field/gerudo_valley/to
 execute if entity @a[x=911,y=71,z=2041,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/gerudo_valley/from
 
-#Lake Hylia
+#Lake Hylia*
 execute positioned 798 52 2251 if entity @s[tag=!Adult,distance=..5] run function ocarina_of_time:teleports/hyrule_field/lake_hylia/to_child_lake
 execute positioned 798 52 2251 if entity @s[tag=Adult,tag=!FinishLake,distance=..5] run function ocarina_of_time:teleports/hyrule_field/lake_hylia/to_adult_lake
 execute positioned 798 52 2251 if entity @s[tag=Adult,tag=FinishLake,distance=..5] run function ocarina_of_time:teleports/hyrule_field/lake_hylia/to_child_lake

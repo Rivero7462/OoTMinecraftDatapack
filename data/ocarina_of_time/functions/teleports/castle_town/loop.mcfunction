@@ -1,4 +1,4 @@
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[x=881,y=70,z=1469,dx=6,dy=5,dz=0] run function ocarina_of_time:teleports/castle_town/hyrule_field/to
 execute if entity @s[x=880,y=60,z=1426,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/hyrule_field/from
 
@@ -7,11 +7,11 @@ execute if entity @s[x=888,y=70,z=1462,dx=0,dz=0] run function ocarina_of_time:t
 tp @s[x=888,y=70,z=1462,dx=0,dz=0] 981 66 1902
 execute if entity @s[x=980,y=66,z=1902,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/soldier_room/outside
 
-#Temple of Time
+#Temple of Time*
 execute if entity @s[x=927,y=74,z=1393,dx=0,dz=2] run function ocarina_of_time:teleports/castle_town/temple_of_time/inside
 execute if entity @s[x=925,y=8,z=1393,dx=0,dz=2] run function ocarina_of_time:teleports/castle_town/temple_of_time/outside
 
-#Castle Field
+#Castle Field*
 execute if entity @s[x=883,y=70,z=1407,dx=2,dz=3] run function ocarina_of_time:teleports/castle_town/castle_field/to
 execute if entity @s[x=882,y=60,z=1426,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/castle_field/from
 
@@ -27,7 +27,7 @@ execute if entity @s[x=901,y=62,z=1417,dx=0,dz=0] run function ocarina_of_time:t
 execute if entity @s[x=893,y=70,z=1412,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/mask_shop/inside
 execute if entity @s[x=894,y=52,z=1401,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/mask_shop/outside
 
-#Archery Shop
+#Archery Shop* Maybe allow people to be in here and other minigames at the same time, but have a tag that stops a new minigame from being started unless nobody else is playing a minigame
 execute if entity @s[x=879,y=70,z=1412,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/archery_shop/inside
 execute if entity @s[x=872,y=59,z=1410,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/archery_shop/outside
 
@@ -47,7 +47,7 @@ execute if entity @s[x=848,y=64,z=1403,dx=0,dz=0] run function ocarina_of_time:t
 execute if entity @s[x=866,y=70,z=1439,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/bombchu_shop/inside
 execute if entity @s[x=892,y=40,z=1417,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/bombchu_shop/outside
 
-#Bombchu Bowling
+#Bombchu Bowling*
 execute if entity @s[x=873,y=70,z=1426,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/bombchu_bowling/inside
 execute if entity @s[x=877,y=40,z=1426,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/bombchu_bowling/outside
 

@@ -2,11 +2,11 @@
 execute if entity @s[x=-26,y=62,z=2016,dx=1,dy=5,dz=7] run function ocarina_of_time:teleports/gerudo_fortress/gerudo_valley/to
 execute if entity @s[x=-66,y=83,z=1949,dx=0,dz=0] run function ocarina_of_time:teleports/gerudo_fortress/gerudo_valley/from
 
-#Training Ground
+#Training Ground*
 execute if entity @s[x=-54,y=71,z=1995,dx=2,dz=0] run function ocarina_of_time:teleports/gerudo_fortress/training_ground/to
 execute if entity @s[x=-68,y=83,z=1949,dx=0,dz=0] run function ocarina_of_time:teleports/gerudo_fortress/training_ground/from
 
-#Haunted Wasteland
+#Haunted Wasteland* Same thing as before
 execute if entity @s[x=-133,y=61,z=2052,dx=19,dz=0] run function ocarina_of_time:teleports/gerudo_fortress/haunted_wasteland/to
 execute if entity @s[x=-70,y=83,z=1949,dx=0,dz=0] run function ocarina_of_time:teleports/gerudo_fortress/haunted_wasteland/from
 

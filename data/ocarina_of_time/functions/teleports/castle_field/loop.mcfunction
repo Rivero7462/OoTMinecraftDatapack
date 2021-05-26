@@ -1,8 +1,8 @@
-#Castle Town
+#Castle Town*
 execute if entity @s[x=893,y=72,z=964,dx=8,dy=5,dz=3] run function ocarina_of_time:teleports/castle_field/castle_town/to
 execute if entity @s[x=906,y=75,z=924,dx=0,dz=0] run function ocarina_of_time:teleports/castle_field/castle_town/from
 
-#Hyrule Castle
+#Hyrule Castle*
 execute if entity @s[x=914,y=88,z=878,dx=0,dz=1] run function ocarina_of_time:teleports/castle_field/hyrule_castle/to
 execute if entity @s[x=908,y=75,z=924,dx=0,dz=0] run function ocarina_of_time:teleports/castle_field/hyrule_castle/from
 execute if entity @s[x=910,y=75,z=924,dx=0,dz=0] run function ocarina_of_time:teleports/castle_field/hyrule_castle/caught

@@ -1,16 +1,16 @@
-#Haunted Wasteland
+#Haunted Wasteland??? So do we want 1 person to get through, and that lets everybody tp? Or maybe anybody can get from desert colossus to gerudo valley on their own?
 execute if entity @s[x=401,y=59,z=536,dx=21,dz=0] run function ocarina_of_time:teleports/desert_colossus/haunted_wasteland/to
 execute if entity @s[x=407,y=53,z=480,dx=0,dz=0] run function ocarina_of_time:teleports/desert_colossus/haunted_wasteland/from
 
-#Spirit Temple
+#Spirit Temple* ?
 execute if entity @s[x=406,y=57,z=384,dx=4,dz=0] run function ocarina_of_time:teleports/desert_colossus/spirit_temple/to
 execute if entity @s[x=409,y=53,z=480,dx=0,dz=0] run function ocarina_of_time:teleports/desert_colossus/spirit_temple/from
 
-#Right Hand
+#Right Hand* ?
 execute if entity @s[x=395,y=78,z=385,dx=0,dz=2] run function ocarina_of_time:teleports/desert_colossus/right_hand/to
 execute if entity @s[x=413,y=53,z=480,dx=0,dz=0] run function ocarina_of_time:teleports/desert_colossus/right_hand/from
 
-#Left Hand
+#Left Hand* ?
 execute if entity @s[x=421,y=78,z=385,dx=0,dz=2] run function ocarina_of_time:teleports/desert_colossus/left_hand/to
 execute if entity @s[x=411,y=53,z=480,dx=0,dz=0] run function ocarina_of_time:teleports/desert_colossus/left_hand/from
 

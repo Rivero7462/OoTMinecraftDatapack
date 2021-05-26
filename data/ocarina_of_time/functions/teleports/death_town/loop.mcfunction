@@ -1,10 +1,10 @@
-#Temple of Time
+#Temple of Time*
 execute if entity @s[x=1442,y=73,z=886,dx=0,dz=2] run function ocarina_of_time:teleports/death_town/temple_of_time/to_inside
 execute if entity @s[x=925,y=8,z=1393,dx=0,dz=2] run function ocarina_of_time:teleports/death_town/temple_of_time/to_outside
 execute if entity @s[x=1400,y=61,z=919,dx=0,dz=0] run function ocarina_of_time:teleports/death_town/temple_of_time/from_inside
 execute if entity @s[x=884,y=60,z=1426,dx=0,dz=0] run function ocarina_of_time:teleports/death_town/temple_of_time/from_outside
 
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[x=1395,y=71,z=962,dx=6,dy=1,dz=1] run function ocarina_of_time:teleports/death_town/hyrule_field/to
 execute if entity @s[x=1398,y=61,z=919,dx=0,dz=0] run function ocarina_of_time:teleports/death_town/hyrule_field/from
 
@@ -12,7 +12,7 @@ execute if entity @s[x=1398,y=61,z=919,dx=0,dz=0] run function ocarina_of_time:t
 execute if entity @s[x=1402,y=70,z=955,dx=0,dz=0] run function ocarina_of_time:teleports/death_town/poe_house/inside
 execute if entity @s[x=1409,y=69,z=956,dx=0,dz=0] run function ocarina_of_time:teleports/death_town/poe_house/outside
 
-#Ganon's Castle Field
+#Ganon's Castle Field*
 execute if entity @s[x=1397,y=70,z=902,dx=2,dy=2,dz=1] run function ocarina_of_time:teleports/death_town/ganon_castle_field/to
 execute if entity @s[x=1402,y=61,z=919,dx=0,dz=0] run function ocarina_of_time:teleports/death_town/ganon_castle_field/from
 

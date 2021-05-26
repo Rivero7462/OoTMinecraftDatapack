@@ -1,14 +1,14 @@
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[x=1474,y=63,z=2355,dx=4,dy=4,dz=6] run function ocarina_of_time:teleports/zora_river/hyrule_field/to
 execute if entity @s[x=1479,y=61,z=2361,dx=4,dy=10,dz=3] run function ocarina_of_time:teleports/zora_river/hyrule_field/to
 execute if entity @s[x=1530,y=61,z=2311,dx=0,dz=0] run function ocarina_of_time:teleports/zora_river/hyrule_field/from
 execute if entity @s[x=1532,y=61,z=2311,dx=0,dz=0] run function ocarina_of_time:teleports/zora_river/hyrule_field/from
 
-#Domain
+#Domain*
 execute if entity @s[x=1614,y=89,z=2285,dx=1,dy=2,dz=2] run function ocarina_of_time:teleports/zora_river/zora_domain/to
 execute if entity @s[x=1536,y=61,z=2311,dx=0,dz=0] run function ocarina_of_time:teleports/zora_river/zora_domain/from
 
-#Lost Woods
+#Lost Woods*
 execute if entity @s[x=1606,y=81,z=2301,dx=1,dz=0] run function ocarina_of_time:teleports/zora_river/lost_woods/to
 execute if entity @s[x=1534,y=61,z=2311,dx=0,dz=0] run function ocarina_of_time:teleports/zora_river/lost_woods/from
 

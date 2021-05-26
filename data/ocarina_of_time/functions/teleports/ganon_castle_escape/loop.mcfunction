@@ -1,3 +1,4 @@
+#Maybe do this like everybody has to geet to the door within the time, and those who get there can watch the others until time runs out?
 #Ganon's Tower
 execute if entity @a[x=-638,y=91,z=909,dx=0,dz=0] run function ocarina_of_time:teleports/ganon_castle_escape/ganon_tower
 

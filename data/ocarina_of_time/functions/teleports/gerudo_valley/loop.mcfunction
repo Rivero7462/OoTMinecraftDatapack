@@ -1,4 +1,4 @@
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[x=438,y=66,z=2064,dx=8,dy=5,dz=4] run function ocarina_of_time:teleports/gerudo_valley/hyrule_field/to
 execute if entity @s[x=386,y=50,z=2040,dx=0,dz=0] run function ocarina_of_time:teleports/gerudo_valley/hyrule_field/from
 
