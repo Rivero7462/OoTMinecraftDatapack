@@ -6,3 +6,4 @@ execute if entity @s[x=1356,y=98,z=-637,dx=0,dz=0] run function ocarina_of_time:
 execute if entity @s[tag=!Boss,x=1425,y=12,z=-662,dx=2,dy=10,dz=2] run tp @s 1426 ~ -661
 execute if entity @s[tag=!Boss,x=1425,y=12,z=-662,dx=2,dy=10,dz=2] run effect give @s minecraft:levitation 1 3 true
 execute if entity @s[tag=!Boss,x=1425,y=23,z=-662,dx=2,dz=2] run function ocarina_of_time:teleports/deku_tree/boss_room
+#s
