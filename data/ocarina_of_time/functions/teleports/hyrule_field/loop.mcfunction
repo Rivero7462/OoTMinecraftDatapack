@@ -18,7 +18,7 @@ execute unless entity @s[tag=Adult] if entity @s[x=969,y=67,z=1902,dx=9,dy=1,dz=
 execute if entity @s[tag=Adult,x=969,y=67,z=1902,dx=9,dy=1,dz=5] run function ocarina_of_time:teleports/hyrule_field/castle_town/to_death_town
 execute if entity @a[x=911,y=71,z=2043,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/castle_town/from
 
-#Lon Lon Ranch* ??
+#Lon Lon Ranch* Make Rivero do if can't figure out
 execute positioned 926 78 2031 if entity @s[distance=..5] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/to
 execute if entity @a[x=907,y=71,z=2041,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/from
 execute if entity @a[x=907,y=71,z=2043,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_field/lon_lon_ranch/from_other
