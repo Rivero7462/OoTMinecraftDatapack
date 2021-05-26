@@ -1,10 +1,10 @@
-#IDK How this should be done
-#Gerudo Fortress
+#Make Rivero Do
+#Gerudo Fortress*
 execute at @s if block ~ ~-4 ~ minecraft:polished_granite run function ocarina_of_time:teleports/haunted_wasteland/gerudo_fortress/to
 execute at @s if block ~ ~-3 ~ minecraft:polished_granite run function ocarina_of_time:teleports/haunted_wasteland/gerudo_fortress/to
 execute if entity @s[x=1908,y=40,z=250,dx=0,dz=0] run function ocarina_of_time:teleports/haunted_wasteland/gerudo_fortress/from
 
-#Desert Colossus
+#Desert Colossus*
 execute at @s if block ~ ~-4 ~ minecraft:polished_andesite run function ocarina_of_time:teleports/haunted_wasteland/desert_colossus/to
 execute at @s if block ~ ~-3 ~ minecraft:polished_andesite run function ocarina_of_time:teleports/haunted_wasteland/desert_colossus/to
 execute if entity @s[x=1910,y=40,z=250,dx=0,dz=0] run function ocarina_of_time:teleports/haunted_wasteland/desert_colossus/from
