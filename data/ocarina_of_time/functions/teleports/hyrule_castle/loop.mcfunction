@@ -7,8 +7,8 @@ execute if entity @s[x=852,y=88,z=408,dx=1,dz=4] run function ocarina_of_time:te
 
 execute if entity @s[x=849,y=88,z=408,dx=1,dz=4] run function ocarina_of_time:teleports/hyrule_castle/zelda/outside
 
-#Impa??? This teleport isn't even a file? ocarina_of_time:teleports/hyrule_castle/impa
-execute if entity @s[tag=ImpaCastleTeleport] run function ocarina_of_time:teleports/hyrule_castle/impa
+#Impa*
+execute if entity @s[tag=ImpaCastleTeleport] run function ocarina_of_time:teleports/hyrule_castle/to_hyrule_field
 
 #Respawn
 execute if entity @s[x=878,y=83,z=417,dx=0,dz=0] run function ocarina_of_time:teleports/hyrule_castle/respawn
