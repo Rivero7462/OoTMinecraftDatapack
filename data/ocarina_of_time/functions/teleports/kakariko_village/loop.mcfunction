@@ -1,8 +1,8 @@
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[x=1469,y=68,z=1935,dx=1,dy=4,dz=5] run function ocarina_of_time:teleports/kakariko_village/hyrule_field/to
 execute if entity @s[x=1545,y=63,z=1936,dx=0,dz=0] run function ocarina_of_time:teleports/kakariko_village/hyrule_field/from
 
-#DeathMountain
+#Death Mountain*
 execute if entity @s[x=1518,y=80,z=1879,dx=9,dy=4,dz=1] run function ocarina_of_time:teleports/kakariko_village/death_mountain/to
 execute if entity @s[x=1545,y=63,z=1938,dx=0,dz=0] run function ocarina_of_time:teleports/kakariko_village/death_mountain/from
 
@@ -75,14 +75,14 @@ execute if entity @s[x=1528,y=55,z=1911,dx=0,dz=0] run function ocarina_of_time:
 execute if entity @s[tag=Adult,x=1537,y=72,z=1936,dx=0,dz=0] run function ocarina_of_time:teleports/kakariko_village/shooting_gallery/inside
 execute if entity @s[x=1526,y=47,z=1947,dx=0,dz=0] run function ocarina_of_time:teleports/kakariko_village/shooting_gallery/outside
 
-#Well
+#Well*
 execute if entity @s[x=1550,y=48,z=1929,dx=1,dy=4,dz=2] run function ocarina_of_time:teleports/kakariko_village/well/to
 execute if entity @s[x=1545,y=63,z=1940,dx=0,dz=0] run function ocarina_of_time:teleports/kakariko_village/well/from
 
 #Owl
 execute if entity @s[x=1545,y=63,z=1942,dx=0,dz=0] run function ocarina_of_time:teleports/kakariko_village/from_owl
 
-#Shadow Temple
+#Shadow Temple*
 execute if entity @s[x=1681,y=72,z=1948,dx=0,dy=1,dz=4] run function ocarina_of_time:teleports/kakariko_village/shadow_temple/to
 execute if entity @s[x=1545,y=63,z=1944,dx=0,dz=0] run function ocarina_of_time:teleports/kakariko_village/shadow_temple/from
 

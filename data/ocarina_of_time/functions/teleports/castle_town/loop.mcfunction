@@ -1,4 +1,4 @@
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[x=881,y=70,z=1469,dx=6,dy=5,dz=0] run function ocarina_of_time:teleports/castle_town/hyrule_field/to
 execute if entity @s[x=880,y=60,z=1426,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/hyrule_field/from
 
@@ -11,7 +11,7 @@ execute if entity @s[x=980,y=66,z=1902,dx=0,dz=0] run function ocarina_of_time:t
 execute if entity @s[x=927,y=74,z=1393,dx=0,dz=2] run function ocarina_of_time:teleports/castle_town/temple_of_time/inside
 execute if entity @s[x=925,y=8,z=1393,dx=0,dz=2] run function ocarina_of_time:teleports/castle_town/temple_of_time/outside
 
-#Castle Field
+#Castle Field*
 execute if entity @s[x=883,y=70,z=1407,dx=2,dz=3] run function ocarina_of_time:teleports/castle_town/castle_field/to
 execute if entity @s[x=882,y=60,z=1426,dx=0,dz=0] run function ocarina_of_time:teleports/castle_town/castle_field/from
 

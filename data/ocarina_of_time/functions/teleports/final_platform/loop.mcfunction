@@ -1,3 +1,4 @@
+#Make Rivero do
 #Ganon's Tower
 execute if entity @a[x=-602,y=42,z=276,dx=0,dz=0] run function ocarina_of_time:teleports/final_platform/escape
 

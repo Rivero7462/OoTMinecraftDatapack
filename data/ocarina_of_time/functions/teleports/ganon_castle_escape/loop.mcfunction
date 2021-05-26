@@ -1,4 +1,4 @@
-#Ganon's Tower
+#Ganon's Tower*
 execute if entity @a[x=-638,y=91,z=909,dx=0,dz=0] run function ocarina_of_time:teleports/ganon_castle_escape/ganon_tower
 
 #Door 1

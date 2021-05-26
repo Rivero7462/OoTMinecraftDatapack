@@ -1,4 +1,4 @@
-#Kakariko Village
+#Kakariko Village*
 execute if entity @s[x=-15,y=69,z=1412,dx=6,dz=1] run function ocarina_of_time:teleports/well/kakariko_village/to
 execute if entity @s[x=-12,y=67,z=1337,dx=0,dz=0] run function ocarina_of_time:teleports/well/kakariko_village/from
 

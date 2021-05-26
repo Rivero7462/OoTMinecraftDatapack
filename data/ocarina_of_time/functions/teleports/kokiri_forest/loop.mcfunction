@@ -28,7 +28,7 @@ execute unless entity @s[x=-592,y=69,z=-595,dx=0,dz=1] run fill -592 70 -595 -59
 execute if entity @s[x=-592,y=69,z=-590,dx=0,dy=1,dz=1] unless entity @a[tag=Adult] run fill -592 70 -589 -592 70 -589 minecraft:birch_trapdoor[facing=south]
 execute unless entity @s[x=-592,y=69,z=-590,dx=0,dz=1] run fill -592 70 -589 -592 70 -589 minecraft:air
 
-#Great Deku Tree
+#Great Deku Tree*
 execute if entity @s[x=-481,y=60,z=-645,dx=3,dz=6] run function ocarina_of_time:teleports/kokiri_forest/deku_tree/to
 execute if entity @s[x=-568,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/deku_tree/from
 execute if entity @s[x=-562,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/deku_tree/from_boss
@@ -37,7 +37,7 @@ execute if entity @s[x=-562,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:
 execute if entity @s[x=-612,y=65,z=-627,dx=0,dz=2] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_1/inside
 execute if entity @s[x=-624,y=65,z=-628,dx=0,dy=1,dz=4] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_1/outside
 
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[tag=SariaGoodBye,x=-639,y=65,z=-628,dx=0,dy=1,dz=4] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_2/cutscene
 execute if entity @s[x=-639,y=65,z=-628,dx=0,dy=1,dz=4] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_2/to
 execute if entity @s[x=-574,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_2/from
@@ -91,11 +91,11 @@ execute if entity @s[x=-570,y=75,z=-700,dx=0,dz=0] run function ocarina_of_time:
 execute if entity @s[x=-575,y=75,z=-721,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/sacred_meadow/inside
 execute if entity @s[x=-575,y=75,z=-732,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/sacred_meadow/outside
 
-#Goron City
+#Goron City*
 execute if entity @s[x=-577,y=75,z=-690,dx=2,dz=0] run function ocarina_of_time:teleports/kokiri_forest/goron_city/to
 execute if entity @s[x=-572,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/goron_city/from
 
-#Zora's River
+#Zora's River*
 execute if entity @s[x=-543,y=68,z=-684,dx=1,dz=0] run function ocarina_of_time:teleports/kokiri_forest/zora_river/to
 execute if entity @s[x=-566,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/zora_river/from
 
@@ -103,7 +103,7 @@ execute if entity @s[x=-566,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:
 execute if entity @s[x=-572,y=72,z=-768,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/fairy_fountain/inside
 execute if entity @s[x=-562,y=58,z=-802,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/fairy_fountain/outside
 
-#Forest Temple
+#Forest Temple*
 execute if entity @s[x=-573,y=88,z=-829,dx=2,dz=0] run function ocarina_of_time:teleports/kokiri_forest/forest_temple/to
 execute if entity @s[x=-570,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/forest_temple/from
 

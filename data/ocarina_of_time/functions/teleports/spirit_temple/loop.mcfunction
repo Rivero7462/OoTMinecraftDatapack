@@ -22,12 +22,12 @@ execute if block -63 88 863 minecraft:birch_trapdoor unless entity @s[tag=Adult]
 execute unless entity @s[tag=Adult] if entity @s[x=-63,y=87,z=855,dx=0,dy=1,dz=1] run fill -63 88 855 -63 88 855 minecraft:birch_trapdoor[facing=south]
 execute if block -63 88 855 minecraft:birch_trapdoor unless entity @s[tag=Adult] unless entity @s[x=-63,y=87,z=855,dx=0,dz=1] run fill -63 88 855 -63 88 855 minecraft:air
 
-#Exit
+#Exit*
 execute unless entity @a[tag=SpiritMedallion] if entity @s[tag=!Boss,x=-16,y=124,z=750,dx=2,dy=10,dz=2] run tp @s -15 ~ 751
 execute unless entity @a[tag=SpiritMedallion] if entity @s[tag=!Boss,x=-16,y=124,z=750,dx=2,dy=10,dz=2] run effect give @s minecraft:levitation 1 3 true
 execute unless entity @a[tag=SpiritMedallion] if entity @s[tag=!Boss,x=-16,y=134,z=750,dx=2,dz=2] run function ocarina_of_time:teleports/spirit_temple/boss_room
 
-#Cutscene
+#Cutscene* Don't know how bosses will bee handled
 execute if entity @a[tag=SpiritMedallion] if entity @s[tag=!Boss,x=-16,y=124,z=750,dx=2,dy=10,dz=2] run tp @s -15 ~ 751
 execute if entity @a[tag=SpiritMedallion] if entity @s[tag=!Boss,x=-16,y=124,z=750,dx=2,dy=10,dz=2] run effect give @s minecraft:levitation 1 3 true
 execute if entity @a[tag=SpiritMedallion] if entity @s[tag=!Boss,x=-16,y=134,z=750,dx=2,dz=2] run function ocarina_of_time:teleports/spirit_temple/spirit_medallion

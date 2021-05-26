@@ -1,4 +1,4 @@
-#Zora's River
+#Zora's River*
 execute unless entity @s[tag=DivingGame] if entity @s[x=1729,y=36,z=2324,dx=1,dy=4,dz=2] run function ocarina_of_time:teleports/zora_domain/zora_river/to
 execute if entity @s[x=1773,y=19,z=2319,dx=0,dz=0] run function ocarina_of_time:teleports/zora_domain/zora_river/from
 
