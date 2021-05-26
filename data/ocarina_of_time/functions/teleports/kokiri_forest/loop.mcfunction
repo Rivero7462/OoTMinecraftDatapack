@@ -1,4 +1,3 @@
-#Some of these might be very wrong
 #Link's
 execute if entity @s[x=-572,y=68,z=-603,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/link/inside
 execute if entity @s[x=-572,y=51,z=-605,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/link/outside
@@ -38,12 +37,12 @@ execute if entity @s[x=-562,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:
 execute if entity @s[x=-612,y=65,z=-627,dx=0,dz=2] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_1/inside
 execute if entity @s[x=-624,y=65,z=-628,dx=0,dy=1,dz=4] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_1/outside
 
-#Hyrule Field
+#Hyrule Field*
 execute if entity @s[tag=SariaGoodBye,x=-639,y=65,z=-628,dx=0,dy=1,dz=4] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_2/cutscene
 execute if entity @s[x=-639,y=65,z=-628,dx=0,dy=1,dz=4] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_2/to
 execute if entity @s[x=-574,y=67,z=-704,dx=0,dz=0] run function ocarina_of_time:teleports/kokiri_forest/forest_exit_2/from
 
-#Lost Woods Entrance/Exit*
+#Lost Woods Entrance/Exit
 execute if entity @s[x=-594,y=75,z=-655,dx=4,dz=1] run function ocarina_of_time:teleports/kokiri_forest/lost_woods_enterance/inside
 execute if entity @s[x=-594,y=75,z=-662,dx=4,dz=1] run function ocarina_of_time:teleports/kokiri_forest/lost_woods_enterance/outside
 
