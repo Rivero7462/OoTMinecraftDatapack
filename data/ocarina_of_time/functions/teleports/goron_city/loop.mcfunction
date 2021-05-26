@@ -6,7 +6,7 @@ execute if entity @s[x=2183,y=49,z=1826,dx=0,dz=0] run function ocarina_of_time:
 execute if entity @s[x=2200,y=64,z=1852,dx=3,dy=3,dz=3] run function ocarina_of_time:teleports/goron_city/lost_woods/to
 execute if entity @s[x=2187,y=49,z=1826,dx=0,dz=0] run function ocarina_of_time:teleports/goron_city/lost_woods/from
 
-#Death Mountain Crater* ????
+#Death Mountain Crater*
 execute if entity @s[x=2181,y=60,z=1790,dx=1,dz=0] run function ocarina_of_time:teleports/goron_city/death_mountain_crater/to
 execute if entity @s[x=2185,y=49,z=1826,dx=0,dz=0] run function ocarina_of_time:teleports/goron_city/death_mountain_crater/from
 
