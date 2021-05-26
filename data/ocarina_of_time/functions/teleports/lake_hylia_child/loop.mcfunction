@@ -7,7 +7,7 @@ execute if entity @s[x=781,y=64,z=2673,dx=0,dz=0] run function ocarina_of_time:t
 execute if entity @s[x=743,y=71,z=2698,dx=0,dz=0] run function ocarina_of_time:teleports/lake_hylia_child/laboratory/inside
 execute if entity @s[x=752,y=56,z=2667,dx=0,dz=0] run function ocarina_of_time:teleports/lake_hylia_child/laboratory/outside
 
-#Adult - Again, why is this here?
+#Adult*
 #Zora's Domain
 execute if entity @s[x=775,y=58,z=2699,dx=1,dy=2,dz=0] run function ocarina_of_time:teleports/lake_hylia_child/zora_domain/to
 
