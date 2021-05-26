@@ -1,4 +1,4 @@
-#Zora's Domain* Why is this still here as an adult?
+#Zora's Domain*
 execute if entity @s[x=1396,y=58,z=2698,dx=1,dy=2,dz=0] run function ocarina_of_time:teleports/lake_hylia_adult/zora_domain/to
 execute if entity @s[x=1404,y=64,z=2673,dx=0,dz=0] run function ocarina_of_time:teleports/lake_hylia_adult/zora_domain/from
 
