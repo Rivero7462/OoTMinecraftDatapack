@@ -1,6 +1,9 @@
 execute unless entity @a[tag=NoNightVision] run effect give @a minecraft:night_vision 1000000 0 true
 execute if entity @a[tag=NoNightVision] run effect clear @a minecraft:night_vision
 
+#Check Player Count
+execute store result score PlayerChecker TotalPlayers if entity @a
+
 #Teleports
 function ocarina_of_time:teleports/loop
 
