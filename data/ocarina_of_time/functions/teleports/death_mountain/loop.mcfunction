@@ -14,7 +14,7 @@ execute if entity @s[x=2016,y=102,z=1420,dx=0,dz=0] run function ocarina_of_time
 execute if entity @s[x=2022,y=157,z=1342,dx=2,dz=1] run function ocarina_of_time:teleports/death_mountain/great_fairy_fountain/inside
 execute if entity @s[x=2026,y=127,z=1338,dx=4,dz=3] run function ocarina_of_time:teleports/death_mountain/great_fairy_fountain/outside
 
-#Death Mountain Crater* ????
+#Death Mountain Crater*
 execute if entity @s[x=2030,y=157,z=1343,dx=5,dz=0] run function ocarina_of_time:teleports/death_mountain/death_mountain_crater/to
 execute if entity @s[x=2020,y=102,z=1420,dx=0,dz=0] run function ocarina_of_time:teleports/death_mountain/death_mountain_crater/from
 
